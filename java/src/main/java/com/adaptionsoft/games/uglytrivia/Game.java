@@ -2,6 +2,7 @@ package com.adaptionsoft.games.uglytrivia;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Game {
     ArrayList players = new ArrayList();
@@ -25,6 +26,8 @@ public class Game {
 			rockQuestions.addLast(createRockQuestion(i));
     	}
     }
+
+
 
 	public String createRockQuestion(int index){
 		return "Rock Question " + index;
